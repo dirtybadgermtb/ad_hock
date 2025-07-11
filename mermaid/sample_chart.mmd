@@ -1,0 +1,8 @@
+%% This chart represents a sample process flow for user registration.
+%% It includes steps like form submission, validation, and account creation.
+
+graph TD
+    A[User submits form] --> B[Validate input]
+    B --> C{Is input valid?}
+    C -->|Yes| D[Create account]
+    C -->|No| E[Show error message]
